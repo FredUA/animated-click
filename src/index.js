@@ -81,7 +81,7 @@ class AnimatedClick extends HTMLElement {
 	 * @param {Event} e click event
 	 */
 	clickHandler = (e) => {
-		const newBubble = this.shadowRoot.createElement('span');
+		const newBubble = document.createElement('span');
 		newBubble.className = `el ${this.type}`;
 		newBubble.style.setProperty('--x', `${e.x}px`)
 		newBubble.style.setProperty('--y', `${e.y}px`);
