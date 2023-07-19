@@ -2,7 +2,7 @@
 AnimatedClick
 =============
 
-**AnimatedClick** is a custom web component that creates an animated effect around a click event. You can specify the type of effect (bubbles or ripples), animation speed, and color. It also allows you to edit the element's styles and apply changes on the fly.
+**AnimatedClick** is a custom web component that creates an animated effect around a click event. You can specify the type of effect (bubbles or ripples), animation speed, and colour. It also allows you to edit the element's styles and apply changes on the fly with a hotkey `CTRL+ALT+SHIFT+S` (open and close style section).
 
 Installation
 -----------
